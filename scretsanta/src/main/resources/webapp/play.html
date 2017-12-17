@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Find your friend</title>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/ss_script.js" /></script>
+<script src="./js/jquery-ui.min.js" /></script>
+<script src="./js/Scratch.min.js" /></script>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/ss_css.css">
+</head>
+<body>
+	<div id="loading">
+		<img height="500px" width="500px" src="./media/village_2x.gif" />
+	</div>
+	<br>
+	<div id="main_container" class="container">
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-6">
+				<a href="#" class="badge badge-warning">100Rs MAX</a>
+				<a href="#" class="badge badge-info">Date 22-12-2017</a>
+				<a href="#" class="badge badge-success">Maventic</a>
+				<button type="button" class="btn btn-danger btn-lg btn-block"
+					id="FindMyFriendBtn">Scratch for find your friend!</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="scratch_container noselect">
+		<div class="scratch_viewport">
+			<!-- result picture -->
+			<canvas id="js-scratch-canvas"></canvas>
+		</div>
+	</div>
+</body>
+</html>

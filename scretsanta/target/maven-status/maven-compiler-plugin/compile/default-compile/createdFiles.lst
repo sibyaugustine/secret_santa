@@ -1,0 +1,5 @@
+com/devdolphin/games/scretsanta/server/App.class
+com/devdolphin/games/scretsanta/provider/FriendFinder.class
+com/devdolphin/games/scretsanta/service/ScretSantaServcieProvider.class
+com/devdolphin/games/scretsanta/service/ScretSantaAccessService.class
+com/devdolphin/games/scretsanta/service/ScretSantaFilter.class
